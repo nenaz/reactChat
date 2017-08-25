@@ -1,0 +1,12 @@
+.userListCell{
+    display: inline-block;
+    width: 100%;
+}
+.userListCell div.table{
+    display: table;
+    width: 100%;
+}
+.userListCell div.tableCell{
+    display: table-cell;
+    width: 33%;
+}

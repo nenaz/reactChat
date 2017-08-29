@@ -17,17 +17,19 @@
     "react-redux": "^5.0.6",
     "react-scripts": "1.0.11",
     "redux": "^3.7.2",
+    "socket.io": "^2.0.3",
     "webpack": "^3.5.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "babel-node index.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "test-unit": "mocha --compilers js:babel-core/register --recursive ./test/test_helper.js --recursive",
     "test-unit-watch": "npm run test-unit -- -watch"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   }
 }
